@@ -1,0 +1,242 @@
+html {
+      scroll-behavior: smooth;
+    }
+    
+    body{
+          font-family: poppin_regular;
+    }
+    
+    /*responsive img*/
+    .img-responsive{
+      width: 100%;
+      height: auto;
+    }
+    
+     /*custom-font*/
+        
+     @font-face {
+          font-family: poppin_regular;
+          src: url('../fonts/Poppins-Regular.ttf');
+    }
+    
+    @font-face {
+          font-family: poppin_semibold;
+          src: url('../fonts/Poppins-SemiBold.ttf');
+    }
+    
+    @font-face {
+          font-family: poppin_bold;
+          src: url('../fonts/Poppins-Bold.ttf');
+    }
+    
+    /*Navigation Section*/
+    
+    #lwLogo{
+          height: 10vh;
+          width: auto;
+    }
+    
+    /* change the link color and add padding for height */
+    .mainNav .navbar-nav .nav-link {
+        color: black;
+        padding: 6px 10px;
+    }
+    
+    /* change the color of active or hovered links */
+    .mainNav .nav-item.active .nav-link,
+    .mainNav .nav-item:hover .nav-link {
+        color: #000000;
+        background-color: #F7D117; /* add background-color to active links */
+        border-radius: 5px;
+    }
+    
+    #bookBtn{
+          color: #000000;
+    }
+    
+    /*Jumbotron + Photoslider Section*/
+    
+    #carouselFade{
+          margin-top: 100px;
+    }
+    
+    .carousel-inner{
+          margin-top: 100px;
+          height: 100%;
+          width: auto;
+    }
+    
+    /*.carousel-caption{
+          color: #000000;
+          background: rgba(235, 238, 232, 0.6);
+          border-radius: 5px;
+          box-shadow: 5px 5px rgba(0,0,0, 0.4);
+          width: 40%;
+          margin-bottom: 30vh;
+    }*/
+    
+    .bookBtnNow{
+      color: #000000;
+      margin-bottom: 20%;
+      padding: 10px 20px;
+      font-size: 20pt;
+      border-radius: 5px;
+    }
+    
+    /*About Section*/
+    .aboutSect{
+          background-image: url(../images/about_bg.svg);
+          background-size: cover;
+          min-height: 95vh;
+          width: auto;
+    }
+    
+    .aboutRow{
+          height: 50vh;
+          width: auto;
+          padding-top: 200px;
+    }
+    
+    /*e-suite Video*/
+    video{
+          box-shadow: 5px 5px rgba(0,0,0, 0.4);
+          border-radius: 5px;
+          width: 100%;
+          height: auto;
+    }
+    
+    /*Facilities Section*/
+    .facilitySect{
+          background-image: url(../images/facility_bg.svg);
+          background-size: cover;
+          min-height: 230vh;
+          width: auto;
+    
+    }
+    
+    .facilityRow{
+          padding-top: 110px;
+    }
+    
+    .hsseRow{
+         padding-top: 50px; 
+    }
+    
+    .moreFacilityRow{
+          padding-top: 50px;
+    }
+    /*Steps Of Booking*/
+    .booking_stepSect{
+          background-image: url(../images/bookingSteps_bg.svg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding-top: 110px;
+          min-height: 135vh;
+          width: auto;
+          overflow: hidden;
+          text-overflow: ellipsis;
+    }
+    
+    
+    .booking_stepsRow{
+          height: 50vh;
+          width: auto;
+    }
+    
+    .stepsPhoto{
+          box-shadow: 5px 5px rgba(0,0,0, 0.4);
+          border-radius: 5px;
+    }
+    /*terms of Use*/
+    
+    .touSect{
+          background-image: url(../images/tou_bg.svg);
+          background-size: cover;
+          min-height: 120vh;
+          width: auto;
+          overflow: hidden;
+    }
+    
+    .touRow{
+          padding-top: 110px;
+          height: 50vh;
+          width: auto;
+    }
+    
+    /*Support Section*/
+    .supportSect{
+          background-image: url(../images/support_bg.svg);
+          min-height: 135vh;
+          width: auto;
+    }
+    
+    .supportRow{
+          padding-top: 100px;
+          align-items: center;
+          height: 70vh;
+          width: auto;
+    }
+    
+    .contactUsCol01{
+          padding-top: 50px;
+    }
+    
+    .contactUsCol02{
+          padding-top: 50px;
+    }
+    
+    iframe{
+          box-shadow: 5px 5px rgba(0,0,0, 0.4);
+          border-radius: 5px;
+    }
+    
+    /*Booking Section*/
+
+    /*Today Date & Day*/
+    .clockNow , .dateNow{
+      font-family: poppin_semibold;
+}
+
+
+.bookSect{
+    height: 100vh;
+    width: auto;
+    background-image: url(../images/bg_01.png);
+    background-size: cover;
+    overflow: scroll;
+    
+}
+
+.bookBox{
+    height: 100vh;
+    width: auto;
+    
+}
+
+.bookUi{
+    margin-top: 30px;
+    height: 70vh;
+    width: auto;
+    border-radius: 10px;
+    background-color: #F7D119;
+}
+
+#bookSubmit{
+    margin-top: 20px;
+}
+
+/*Book Sect: Map*/
+
+.mapUi{
+    margin-top:30px;
+    height: 80vh;
+    width: 49vh;
+    border-radius: 10px;
+    background: rgba(235, 238, 232, 0.5);
+    overflow: inherit;
+}
+
+#esuiteMap{
+    height: 100%;
+    width: auto;
+}
